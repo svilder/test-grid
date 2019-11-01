@@ -17,6 +17,17 @@
   background-color: green;
 }
 
+.red,
+.yellow,
+.purple,
+.green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .first-example,
 .second-example,
 .third-example,
