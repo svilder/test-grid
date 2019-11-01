@@ -13,12 +13,17 @@
   background-color: purple;
 }
 
+.green {
+  background-color: green;
+}
+
 .first-example,
 .second-example,
 .third-example,
-.fourth-example {
+.fourth-example,
+.fifth-example {
   display: grid;
-  height: 200px;
+  height: 100px;
 }
 
 .first-example {
@@ -35,4 +40,8 @@
 
 .fourth-example {
   grid-template-columns: 100px 300px auto;
+}
+
+.fifth-example {
+  grid-template-columns: 1fr 1fr 2fr 3fr;
 }
