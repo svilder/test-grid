@@ -1,0 +1,29 @@
+/*@import url("components/first-example.css");
+@import url("components/second-example.css");*/
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.first-example,
+.second-example,
+.third-example {
+  display: grid;
+  height: 200px;
+}
+
+.first-example {
+  grid-template-columns: 1fr 1fr;
+}
+
+.second-example {
+  grid-template-columns: 1fr 2fr;
+}
+
+.third-example {
+  grid-template-columns: 6fr 1fr;
+}

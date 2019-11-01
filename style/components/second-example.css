@@ -1,0 +1,5 @@
+.second-example {
+  display: grid;
+  height: 200px;
+  grid-template-columns: 1fr 2fr;
+}
