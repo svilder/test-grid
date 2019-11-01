@@ -9,9 +9,14 @@
   background-color: yellow;
 }
 
+.purple {
+  background-color: purple;
+}
+
 .first-example,
 .second-example,
-.third-example {
+.third-example,
+.fourth-example {
   display: grid;
   height: 200px;
 }
@@ -26,4 +31,8 @@
 
 .third-example {
   grid-template-columns: 6fr 1fr;
+}
+
+.fourth-example {
+  grid-template-columns: 100px 300px auto;
 }
