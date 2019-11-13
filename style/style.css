@@ -37,6 +37,10 @@
   height: 100px;
 }
 
+.sixth-example {
+  height: 100px;
+}
+
 .first-example {
   grid-template-columns: 1fr 1fr;
 }
